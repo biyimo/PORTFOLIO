@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 
 
@@ -31,4 +32,49 @@ nav{
 .icons{
     margin-right: 50px;
     font-size: 30px;
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+.home-img{
+    width: 500px;
+    height: 600px;
+    border-radius: 50px;
+}
+.home-left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.home-right{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 40px;
+    color: navy;
+}
+
+.profile{
+    font-size: 60px;
+    color: tomato;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.developer{
+    font-style: 40px;
+    color: navy;
 }
